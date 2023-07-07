@@ -150,3 +150,61 @@ h1 {
 .fade-button:hover {
   opacity: 0.8;
 }
+footer {
+  background-color: #051a83;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  flex-basis: 40%;
+}
+
+.text-section {
+  background-color: orange;
+  padding: 20px;
+  margin-right: 20px; /* Add a margin to create a gap */
+}
+
+.text-section h2,
+.text-section p {
+  color: white;
+}
+
+.footer-right {
+  flex-basis: 50%;
+  display: flex;
+  gap: 20px; /* Add a gap between the footer sections */
+}
+
+.footer-section {
+  flex-basis: 25%;
+}
+
+.h3-footer {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: orange;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}

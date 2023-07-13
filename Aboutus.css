@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  margin: 0 30px;
+}
+
+.about-section {
+  flex: 1;
+  margin: 0 30px;
+}
+
+.about-section h1 {
+  margin-top: 0;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 130px;
+  height: 150px;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  margin-bottom: -15px;
+}
+
+.icon-container i {
+  font-size: 45px;
+  color: orange;
+  margin-bottom: 85px;
+}
+
+.count {
+  margin-top: -40px;
+  font-size: 22px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.explore-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  font-weight: 500px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.photo-gallery {
+  /* flex: 1; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.photo1 {
+  width: 200px;
+  order: 1;
+}
+
+.photo2 {
+  width: 150px;
+  order: 2;
+}
+
+.photo3 {
+  width: 250px;
+  order: 3;
+}
+
+.photo4 {
+  width: 250px;
+  order: 4;
+}
+
+.photo5 {
+  width: 200px;
+  order: 5;
+}

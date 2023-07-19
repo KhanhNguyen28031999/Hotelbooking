@@ -136,3 +136,85 @@ header{
 .show{
     display: block;
 }
+/* Service */
+#headerServices {
+    position: relative;
+    background-image: url(carousel-1.jpg);
+    height: 300px; /* Điều chỉnh chiều cao theo ý muốn */
+    width: 80%; /* Điều chỉnh chiều rộng theo ý muốn */
+    margin: 0 auto;
+}
+
+#headerServices::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Điều chỉnh màu sắc và độ mờ */
+    z-index: 1;
+}
+
+#headerServices h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 100px; /* Điều chỉnh kích thước chữ tiêu đề */
+    color: white; /* Điều chỉnh màu chữ tiêu đề */
+    text-align: center; 
+}
+.bodyServices{
+    text-align: center;
+}
+.box-services{
+    width: 100%;
+    height: 640px;
+    margin: 0 auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  
+}
+.box{
+    width: 400px;
+    max-height: 320px;
+    box-shadow: 10px 10px 10px 10px rgb(186, 183, 183);
+}
+.textService{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.insideSB{
+    width: 90%;height: 90%; margin: 0 auto; margin-top: 15px;
+}
+.iconSBArea{
+    width: 100%;height: 100px; text-align: center; font-size: 40px;
+}
+.iconSB{
+    margin-top: 10px;border: double 8px rgba(195, 186, 186, 0.779); padding: 10px; color: #FEA116;
+}
+/* Ảnh slider */
+ #headerServices1 {
+    position: relative;
+    background-image: url(carousel-2.jpg);
+    height: 300px; 
+    width: 90%; 
+    margin: 0 auto;
+}
+.imgSV{
+    width: 100%;
+    height: 500px;
+}
+.box{
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.box:hover{
+    background-color: #FEA116;
+    color: white;
+    .iconSB{
+        color: white;
+    }
+}

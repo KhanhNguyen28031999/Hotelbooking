@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heading</title>
+    <link rel="stylesheet" href="heading.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="login"> <!-- Nút đăng nhập -->
+            <i id="close" class="fa-solid fa-xmark"></i>
+            <h1 style="text-align: center; color: black;">Login</h1>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="youremail@gmail.com" required>
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+            <label for="floatingPassword">Password</label>
+        </div>
+
+          <button id="btn1" type="submit" class="btn btn-success">Login</button><br>
+       
+        
+        <label style="margin-left: 45%">
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+          <p style="text-align: center; margin-left: 25px; padding-top: 10px; color: black;">Haven't registered yet ? <span id="register2">Register now !</span></p>
+        
+            <button id="btn2" type="button" class="btn btn-primary">Register ?</a></button>
+        
+          
+    </div>
+     
+    <div id="register"> <!-- Nút đăng ký -->
+            <i id="close1" class="fa-solid fa-xmark"></i>
+            <h1 style="text-align: center; color: black;">Register</h1>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control"  id="registerEmail" placeholder="youremail@gmail.com" required>
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="password" class="form-control"  id="registerPW" placeholder="Password" required>
+            <label for="floatingPassword">Password</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="password" class="form-control"  id="CFRegisterPW" placeholder="Confirm Password" required>
+            <label for="floatingPassword">Confirm Password</label>
+        </div>
+        <div class="form-floating ">
+            <input type="tel" class="form-control"  id="tel" placeholder="Phone Number" required>
+            <label for="floatingInput">Phone Number</label>
+        </div>
+          <button id="btnRGT" type="submit" class="btn btn-primary">Register.</a></button>
+          <p style="text-align: center;">Have an account already ? <span style="color: blue;" id="loginRGT">Login now</span></p>
+    </div>
+     <header> <!-- Header -->
+        <div id="header-all"> <!-- Div header -->
+            <div id="header-logo-left"> <!-- Div logo -->
+                <img id="img-logo-left" src="https://cdn.dribbble.com/users/381820/screenshots/3559837/_________.png" alt="Hotelier">
+            </div>
+            <div class="header-text-right"> <!-- Phần bên phải -->
+                <div id="header-text-top">  <!-- Phần bên trên -->
+                    <div style="display: inline-flex;">
+                        <i class="fa-solid fa-envelope left"> testing@gmail.com</i> 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i class="fa-solid fa-phone left"> 0123456789</i>
+                    </div>
+                    <div id="right">
+                        <i class="fa-brands fa-facebook-f "></i>
+                        <i class="fa-brands fa-twitter "></i>
+                        <i class="fa-brands fa-linkedin-in "></i>
+                        <i class="fa-brands fa-instagram "></i>
+                        <i class="fa-brands fa-youtube "></i>
+                    </div>
+                </div>
+                <div id="text-bottom"> <!-- Phần bên dưới -->
+                    <div class="text-bottom-1">
+                            <p class="text-bottom-1">HOME</p>
+                            <p class="text-bottom-1">ABOUT</p>
+                            <p class="text-bottom-1">SERVICES</p>
+                            <p class="text-bottom-1">ROOMS</p>
+                            <p class="text-bottom-1">CONTACT</p>
+                    </div>
+                    <div class="dk">    <!-- Nút đăng ký -->
+                            <p id="dk1">Login</a></p>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <p id="dk2">Register</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="headerServices" style="background-image: url(carousel-1.jpg)">
+        <H1 style="padding-top: 80px;">SERVICES</H1>
+    </div>
+    <div style="padding-top: 60px; width: 80%;height: 1500px; margin: 0 auto; background-color: whitesmoke;"><!-- div body services -->
+        <h6 class="bodyServices" style="color: #FEA116; font-size: larger;">Welcome!</h6>
+        <h2 class="bodyServices" style="font-size: 50px; padding-bottom: 80px;">Let's Explore Our <span style="color: #FEA116;">SERVICES</span></h2>
+            <div class="box-services">   <!-- services -->
+                <div id="box1" class="box-services box">
+                    <div class="insideSB">
+                        <div class="iconSBArea">
+                            <i class="fa-solid fa-hotel iconSB"></i>
+                        </div>
+                        <h6 class="textService">Rooms & Appartment</h6>
+                        <p class="textService">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                    </div>
+                </div>
+                <div id="box2" class="box-services box">
+                    <div class="insideSB">
+                        <div class="iconSBArea">
+                            <i class="fa-solid fa-utensils iconSB"></i>
+                        </div>
+                        <h6 class="textService">Food & Restaurant</h6>
+                        <p class="textService">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                    </div>
+                </div>
+                <div id="box3" class="box-services box">
+                    <div class="insideSB">
+                        <div class="iconSBArea">
+                            <i class="fa-solid fa-spa iconSB"></i>
+                        </div>
+                        <h6 class="textService">Spa & Fitness</h6>
+                        <p class="textService">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                    </div>
+                </div>
+                <div id="box4" class="box-services box">
+                    <div class="insideSB">
+                        <div class="iconSBArea">
+                            <i class="fa-solid fa-swimmer iconSB"></i>
+                        </div>
+                        <h6 class="textService">Sports & Gaming</h6>
+                        <p class="textService">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                    </div>
+                </div>
+                <div id="box5" class="box-services box">
+                    <div class="insideSB">
+                        <div class="iconSBArea">
+                            <i class="fa-solid fa-champagne-glasses iconSB"></i>
+                        </div>
+                        <h6 class="textService">Event & Party</h6>
+                        <p class="textService">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                    </div>
+                </div>
+                <div id="box6" class="box-services box">
+                    <div class="insideSB">
+                        <div class="iconSBArea">
+                            <i class="fa-solid fa-dumbbell iconSB"></i>
+                        </div>
+                        <h6 class="textService">GYM & Yoga</h6>
+                        <p class="textService">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                    </div>
+                </div>
+            </div>
+        <!-- slider -->
+        <div id="headerServices1" id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="margin-top: 50px; background-color: blue; height: 400px; background-image: url(./carousel-2.jpg);">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" style="margin-top: 100px;">
+                    <div class="carousel-item active">
+                    <img class="imgSV" src="carousel-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="imgSV" src="carousel-2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>  
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</body>
+
+<script src="https://kit.fontawesome.com/702464f6da.js" crossorigin="anonymous"></script>
+<script src="./heading.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</html>
